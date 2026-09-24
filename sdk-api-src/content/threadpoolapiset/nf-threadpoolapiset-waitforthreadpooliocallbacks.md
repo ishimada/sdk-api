@@ -65,7 +65,7 @@ A pointer to a <b>TP_IO</b> structure that defines the I/O completion object. Th
 
 ### -param fCancelPendingCallbacks [in]
 
-Indicates whether to cancel queued callbacks that have not yet started to execute.
+Indicates whether to cancel queued callbacks that have not yet started to execute. “Pending” in the parameter name refers to callbacks, not to I/O requests.
 
 ## -remarks
 
